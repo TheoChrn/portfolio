@@ -1,0 +1,142 @@
+.projects {
+  padding-top: 50px;
+  background-color: rgba(0, 0, 0, 0.03);
+  & h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #7451eb;
+  }
+  & .projectsSectionTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #7451eb;
+    height: 75px;
+  }
+  & .cardContainer {
+    margin: 0 5%;
+    display: grid;
+    padding: 2em 0;
+    gap: 30px;
+
+    & .card {
+      //background-color: white;
+      border-radius: 25px;
+      height: 200px;
+      width: 100%;
+      position: relative;
+
+      & .cardFigure {
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        & img {
+          height: 100%;
+          width: 75%;
+          transition: ease-in-out 500ms;
+          object-fit: contain;
+        }
+      }
+
+      & .cardInfos {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        color: white;
+        background-color: #7451eb;
+        background-image: linear-gradient(23deg, #7451eb 0%, #8167d6 100%);
+        opacity: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: 750ms ease-in-out;
+
+        & ul {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+
+          & li {
+            & svg {
+              width: 50px;
+              height: auto;
+            }
+          }
+        }
+
+        & .buttonsContainer {
+          display: flex;
+          gap: 10px;
+          & button {
+            outline: none;
+            cursor: pointer;
+            border: solid 2px white;
+            background-color: transparent;
+            padding: 10px 20px;
+
+            border-radius: 50px;
+            color: white;
+            margin: 0;
+            transition: 150ms ease-in-out;
+            &:hover {
+              background-color: white;
+              color: #7451eb;
+            }
+          }
+        }
+      }
+
+      &:hover {
+        & .cardFigure {
+          & img {
+            opacity: 0;
+            transform: scale(0.3);
+          }
+        }
+        & .cardInfos {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    & .cardContainer {
+      grid-template-columns: repeat(2, 1fr);
+
+      & .card {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .projects {
+    & .cardContainer {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 15%;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .projects {
+    & .cardContainer {
+      grid-template-columns: repeat(3, 1fr);
+      & .card {
+        //aspect-ratio: 2 / 1;
+      }
+    }
+  }
+}

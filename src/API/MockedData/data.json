@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 4,
+      "title": "Les petits plats",
+      "src": "/src/assets/programing-logo/programming-pic.svg",
+      "alt": "Photo projet Les petits plats",
+      "link": "",
+      "type": "Openclassrooms",
+      "skillsrc": [
+        "src/assets/programing-logo/html-5.svg",
+        "src/assets/programing-logo/css-3.svg",
+        "src/assets/programing-logo/js.svg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Billed",
+      "src": "/src/assets/programing-logo/programming-pic.svg",
+      "alt": "Photo projet Billed",
+      "link": "",
+      "type": "Openclassrooms"
+    },
+    {
+      "id": 6,
+      "title": "Learn@home",
+      "src": "/src/assets/programing-logo/programming-pic.svg",
+      "alt": "Photo projet Learn at home",
+      "link": "",
+      "type": "Openclassrooms",
+      "skillsrc": ["src/assets/programing-logo/figma.svg"]
+    },
+    {
+      "id": 7,
+      "title": "Kasa",
+      "src": "/src/assets/programing-logo/programming-pic.svg",
+      "alt": "Photo projet Kasa",
+      "link": "",
+      "type": "Openclassrooms",
+      "skillsrc": ["src/assets/programing-logo/react.svg"]
+    },
+    {
+      "id": 8,
+      "title": "SportSee",
+      "src": "/src/assets/programing-logo/programming-pic.svg",
+      "alt": "Photo projet SportSee",
+      "link": "",
+      "type": "Openclassrooms",
+      "skillsrc": ["src/assets/programing-logo/react.svg"]
+    },
+    {
+      "id": 9,
+      "title": "Argent Bank",
+      "src": "/src/assets/programing-logo/programming-pic.svg",
+      "alt": "Photo projet Argent Bank",
+      "link": "",
+      "type": "Openclassrooms",
+      "skillsrc": [
+        "src/assets/programing-logo/react.svg",
+        "src/assets/programing-logo/redux.svg"
+      ]
+    }
+  ]
+}
