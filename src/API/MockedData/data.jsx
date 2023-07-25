@@ -216,7 +216,7 @@ export const logos = [
       {
         id: 7,
         title: "Learn@home",
-        src: "/src/assets/project-image/learnathome.svg",
+        src: LeanAtHomeLogo,
         alt: "Photo projet Learn at home",
         link: "https://www.figma.com/file/It48VWXfSkxdDy5i8khCQc/Learn%40Home?type=design&node-id=0%3A1&mode=design&t=mTOVgOWj7vy7piyl-1",
         type: "Openclassrooms",
