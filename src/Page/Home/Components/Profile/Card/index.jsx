@@ -4,7 +4,7 @@ import ProfilePic from "../../../../../assets/profile-picture/WY_Hp8D6.jpg";
 import { Link } from "react-router-dom";
 import { logos } from "../../../../../API/MockedData/data";
 
-const AboutCard = () => {
+const ProfileCard = () => {
   const socialMedia = logos[0].socialMedia;
   return (
     <div className={styles.card}>
@@ -47,4 +47,4 @@ const AboutCard = () => {
   );
 };
 
-export default AboutCard;
+export default ProfileCard;

@@ -1,12 +1,13 @@
 import React from "react";
+import Introduction from "./Introduction";
 import styles from "./styles.module.scss";
-import AboutCard from "./Card";
-const About = () => {
+
+const AboutIntroduction = () => {
   return (
-    <section className={styles.about}>
-      <AboutCard />
+    <section className={styles.introductionContainer}>
+      <Introduction />
     </section>
   );
 };
 
-export default About;
+export default AboutIntroduction;

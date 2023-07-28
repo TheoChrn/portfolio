@@ -1,19 +1,19 @@
 import React from "react";
-import About from "./Components/About";
+import AboutCard from "./Components/Profile";
 import Skills from "./Components/Skills";
 import Project from "./Components/Project";
 import styles from "./styles.module.scss";
-import Footer from "./Components/Footer";
+import AboutIntroduction from "./Components/About";
 
 const Home = () => {
   return (
     <div>
       <main>
-        <About />
+        <AboutCard />
+        <AboutIntroduction />
         <Skills />
         <Project />
       </main>
-      <Footer />
     </div>
   );
 };

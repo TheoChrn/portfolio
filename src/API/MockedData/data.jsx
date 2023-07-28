@@ -18,7 +18,7 @@ import Github from "../../Page/Home/Components/Logos/SocialMedia/Github";
 import StoryBookLogo from "../../Page/Home/Components/Logos/SkillsLogo/StoryBook";
 
 //Project logos
-import ArgentBankLogo from "../../assets/project-image/argentBankLogo.png";
+import ArgentBankLogo from "../../assets/project-image/ArgentBank.png";
 import BilledLogo from "../../assets/project-image/billed.svg";
 import FishEyeLogo from "../../assets/project-image/fisheye.svg";
 import GameOnLogo from "../../assets/project-image/gameon.svg";
@@ -43,7 +43,7 @@ export const logos = [
       },
       {
         logo: <LinkedIn mainColor="white" size="30px" />,
-        link: "https://www.linkedin.com/in/th%C3%A9o-ch%C3%A9ron-7232b6180/",
+        link: "https://www.linkedin.com/in/th%C3%A9o-c-7232b6180/",
       },
       {
         logo: <Email mainColor="white" size="30px" />,
@@ -52,13 +52,13 @@ export const logos = [
     ],
     skills: [
       {
-        name: "JavaScript (ES5, ES6+)",
+        name: "JavaScript",
         logo: <JavaScriptLogo mainColor="#F7DF1E" secondColor="#000000" />,
         type: "Front",
       },
       {
         name: "Sass",
-        logo: <SassLogo mainColor="#cd6799" />,
+        logo: <SassLogo mainColor="white" />,
         type: "Front",
       },
       {
@@ -68,7 +68,7 @@ export const logos = [
       },
       {
         name: "Redux",
-        logo: <ReduxLogo mainColor="#764ABC" />,
+        logo: <ReduxLogo mainColor="white" />,
         type: "Front",
       },
       {
@@ -216,7 +216,7 @@ export const logos = [
       {
         id: 7,
         title: "Learn@home",
-        src: "/src/assets/project-image/learnathome.svg",
+        src: LeanAtHomeLogo,
         alt: "Photo projet Learn at home",
         link: "https://www.figma.com/file/It48VWXfSkxdDy5i8khCQc/Learn%40Home?type=design&node-id=0%3A1&mode=design&t=mTOVgOWj7vy7piyl-1",
         type: "Openclassrooms",
