@@ -1,0 +1,10 @@
+.profileCard {
+  display: flex;
+  background-image: linear-gradient(120deg, rgb(116, 81, 235), rgb(161, 81, 235));
+}
+
+@media screen and (min-width: 1025px) {
+  .profileCard {
+    justify-content: center;
+  }
+}

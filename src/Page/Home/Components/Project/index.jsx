@@ -19,7 +19,7 @@ const Project = () => {
                 <img src={project.src} alt={project.alt} />
               </figure>
               <div className={styles.cardInfos}>
-                <h3>{`Projet ${project.id} - ${project.title}`}</h3>
+                <h3>{`${project.title}`}</h3>
                 <ul>
                   {project.logos &&
                     project.logos.map((logo, index) => (
@@ -27,12 +27,15 @@ const Project = () => {
                     ))}
                 </ul>
                 <div className={styles.buttonsContainer}>
-                  <Link
-                    to={project.link}
-                    aria-label={`Lien vers ${project.title}`}
-                  >
-                    <button>Démo</button>
-                  </Link>
+                  {project.link && (
+                    <Link
+                      to={project.link}
+                      aria-label={`Lien vers ${project.title}`}
+                    >
+                      <button>Démo</button>
+                    </Link>
+                  )}
+
                   {project.git && (
                     <Link
                       to={project.git}
