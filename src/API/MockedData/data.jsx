@@ -43,7 +43,7 @@ export const logos = [
       },
       {
         logo: <LinkedIn mainColor="white" size="30px" />,
-        link: "https://www.linkedin.com/",
+        link: "https://www.linkedin.com/in/th%C3%A9o-c-7232b6180/",
       },
       {
         logo: <Email mainColor="white" size="30px" />,
