@@ -9,7 +9,6 @@ const Project = () => {
 
   return (
     <section className={styles.projects}>
-      <div className={styles.bg}></div>
       <h2>PROJETS</h2>
       <div className={styles.cardContainer}>
         {projects ? (

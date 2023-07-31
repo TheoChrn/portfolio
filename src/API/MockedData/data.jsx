@@ -43,7 +43,7 @@ export const logos = [
       },
       {
         logo: <LinkedIn mainColor="white" size="30px" />,
-        link: "https://www.linkedin.com/in/th%C3%A9o-c-7232b6180/",
+        link: "https://www.linkedin.com/in/th%C3%A9o-chrn/",
       },
       {
         logo: <Email mainColor="white" size="30px" />,
@@ -96,74 +96,12 @@ export const logos = [
       },
     ],
     projects: [
-      /*{
-        id: 1,
-        title: "Réservia",
-        src: ReserviaLogo,
-        alt: "Photo projet Réservia",
-        link: "",
-        type: "Openclassrooms",
-        logos: [
-          <HtmlLogo
-            mainColor="white"
-            secondColor="silver"
-            thirdColor="#7451eb"
-          />,
-          <CssLogo
-            mainColor="white"
-            secondColor="silver"
-            thirdColor="#7451eb"
-          />,
-        ],
-      },
-      {
-        id: 2,
-        title: "OhMyFood",
-        src: OhMyFoodLogo,
-        alt: "Photo projet OhMyFood",
-        link: "",
-        type: "Openclassrooms",
-        logos: [
-          <HtmlLogo
-            mainColor="white"
-            secondColor="silver"
-            thirdColor="#7451eb"
-          />,
-          <CssLogo
-            mainColor="white"
-            secondColor="silver"
-            thirdColor="#7451eb"
-          />,
-          <SassLogo mainColor="white" />,
-        ],
-      },
-      {
-        id: 3,
-        title: "GameOn",
-        src: GameOnLogo,
-        alt: "Photo projet GameOn",
-        link: "",
-        type: "Openclassrooms",
-        logos: [
-          <HtmlLogo
-            mainColor="white"
-            secondColor="silver"
-            thirdColor="#7451eb"
-          />,
-          <CssLogo
-            mainColor="white"
-            secondColor="silver"
-            thirdColor="#7451eb"
-          />,
-          <JavaScriptLogo mainColor="white" secondColor="#7451eb" />,
-        ],
-      },*/
       {
         id: 4,
         title: "Fisheye",
         src: FishEyeLogo,
         alt: "Photo projet Fisheye",
-        link: "https://nervous-mccarthy-79671f.netlify.app/profil.html?id=930",
+        link: "https://nervous-mccarthy-79671f.netlify.app/",
         git: "https://github.com/TheoChrn/Projet-6",
         type: "Openclassrooms",
         logos: [
@@ -204,15 +142,6 @@ export const logos = [
           <SassLogo mainColor="white" />,
         ],
       },
-      /*{
-        id: 6,
-        title: "Billed",
-        src: BilledLogo,
-        alt: "Photo projet Billed",
-        link: "",
-        type: "Openclassrooms",
-        logos: [<JestLogo mainColor="transparent" />],
-      },*/
       {
         id: 7,
         title: "Learn@home",
@@ -270,21 +199,6 @@ export const logos = [
           <SassLogo mainColor="white" />,
         ],
       },
-      /*{
-        id: 11,
-        title: "Wealth Health",
-        src: WealthHealthLogo,
-        alt: "Photo projet Wealth Health",
-        link: "",
-        type: "Openclassrooms",
-        logos: [
-          <ReactLogo mainColor="white" />,
-          <ReduxLogo mainColor="white" />,
-          <JestLogo mainColor="transparent" />,
-          <StoryBookLogo mainColor="white" secondColor={"#7451eb"} />,
-          <SassLogo mainColor="white" />,
-        ],
-      },*/
     ],
   },
 ];

@@ -4,9 +4,7 @@ import { logos } from "../../../../API/MockedData/data";
 
 const Skills = () => {
   const skillLogos = logos[0].skills;
-  console.log(skillLogos);
   const types = new Set(skillLogos.map((logo) => logo.type));
-  console.log(types);
 
   return (
     <section className={styles.skills}>
@@ -27,9 +25,6 @@ const Skills = () => {
               </ul>
             </div>
           ))}
-          {/*skillLogos.map((skill, index) => (
-            <li key={index}>{skill.logo}</li>
-          ))*/}
         </ul>
       </div>
     </section>
