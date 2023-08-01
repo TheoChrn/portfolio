@@ -10,13 +10,15 @@ const Introduction = () => {
         le site Openclassrooms et ai ensuite suivi une formation diplomante sur
         celui-ci.
         <br />
+        <br />
         J'ai pu apprendre beaucoup de notions telles que la méthode agile, la
         rédaction de tests, l'intégration d'API et bien plus encore.
+        <br />
         <br />
         Le côté orienté autodidacte de cette formation m'a poussé à chercher les
         informations afin de réaliser au mieux mes projets.
         <br />
-        
+        <br />
       </p>
     </div>
   );

@@ -1,6 +1,7 @@
 .projects {
-  padding: 50px 0;
-  //background-color: rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   & h2 {
     font-size: 28px;
     text-align: center;
@@ -17,7 +18,6 @@
   & .cardContainer {
     margin: 0 5%;
     display: grid;
-    padding: 2em 0;
     gap: 30px;
 
     & .card {
@@ -74,6 +74,11 @@
         & .buttonsContainer {
           display: flex;
           gap: 10px;
+
+          & a {
+            pointer-events: none;
+          }
+
           & button {
             outline: none;
             cursor: pointer;
@@ -91,7 +96,6 @@
           }
         }
       }
-
       &:hover {
         & .cardFigure {
           & img {
@@ -101,6 +105,12 @@
         }
         & .cardInfos {
           opacity: 1;
+        }
+
+        & .buttonsContainer {
+          & a {
+            pointer-events: inherit;
+          }
         }
       }
     }
