@@ -29,6 +29,7 @@ import OhMyFoodLogo from "../../assets/project-image/ohmyfood.svg";
 import ReserviaLogo from "../../assets/project-image/reservia.svg";
 import SportSeeLogo from "../../assets/project-image/sportsee.svg";
 import WealthHealthLogo from "../../assets/project-image/wealthhealth.jpg";
+import TypeScriptLogo from "../../Page/Home/Components/Logos/SkillsLogo/TypeScript";
 
 export const logos = [
   {
@@ -54,6 +55,11 @@ export const logos = [
       {
         name: "JavaScript",
         logo: <JavaScriptLogo mainColor="#F7DF1E" secondColor="#000000" />,
+        type: "Front",
+      },
+      {
+        name: "TypeScript",
+        logo: <TypeScriptLogo mainColor="#007ACC" secondColor={"white"} />,
         type: "Front",
       },
       {
@@ -164,12 +170,13 @@ export const logos = [
         title: "Kasa",
         src: KasaLogo,
         alt: "Photo projet Kasa",
-        link: "https://projet-10-kaza.vercel.app/",
+        link: "https://kasa-typescript.vercel.app/",
         git: "https://github.com/TheoChrn/projet-10-kaza",
         type: "Openclassrooms",
         logos: [
           <ReactLogo mainColor="white" />,
           <SassLogo mainColor="white" />,
+          <TypeScriptLogo mainColor="white" secondColor="#7451eb" />,
         ],
       },
       {
@@ -191,12 +198,13 @@ export const logos = [
         src: ArgentBankLogo,
         alt: "Photo projet Argent Bank",
         link: "",
-        git: "https://github.com/TheoChrn/Projet-13-bank-front",
+        git: "https://github.com/TheoChrn/Kasa-typescript",
         type: "Openclassrooms",
         logos: [
           <ReactLogo mainColor="white" />,
           <ReduxLogo mainColor="white" />,
           <SassLogo mainColor="white" />,
+          <TypeScriptLogo mainColor="white" secondColor="#7451eb" />,
         ],
       },
     ],
