@@ -197,7 +197,7 @@ export const logos = [
         title: "Argent Bank",
         src: ArgentBankLogo,
         alt: "Photo projet Argent Bank",
-        link: "",
+        link: "https://projet-13-bank-front.vercel.app/",
         git: "https://github.com/TheoChrn/Kasa-typescript",
         type: "Openclassrooms",
         logos: [
