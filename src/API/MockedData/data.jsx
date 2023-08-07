@@ -17,7 +17,7 @@ import Email from "../../Page/Home/Components/Logos/SocialMedia/Email";
 import Github from "../../Page/Home/Components/Logos/SocialMedia/Github";
 import StoryBookLogo from "../../Page/Home/Components/Logos/SkillsLogo/StoryBook";
 import CurriculumVitae from "../../Page/Home/Components/Logos/SocialMedia/CV";
-import CVPDF from "../../../public/CV/CV_CHERON_THEO.pdf";
+import CurriculumVitaePDF from "/CV/CV_CHERON_THEO.pdf";
 
 //Project logos
 import ArgentBankLogo from "../../assets/project-image/ArgentBank.png";
@@ -54,7 +54,7 @@ export const logos = [
       },
       {
         logo: <CurriculumVitae mainColor={"white"} size={"30px"} />,
-        downloadcv: CVPDF,
+        download: CurriculumVitaePDF,
       },
     ],
     skills: [

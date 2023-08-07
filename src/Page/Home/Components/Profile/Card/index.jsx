@@ -23,15 +23,17 @@ const ProfileCard = () => {
             {socialMedia.map((media, index) => (
               <li key={index}>
                 <Link
-                  download={media.downloadcv && "CV_CHERON_THEO.pdf"}
+                  download={media.download && "CV_CHERON_THEO"}
                   to={
-                    media.link || (media.mail ? `mailto:${media.mail}` : null)
+                    media.link ||
+                    (media.mail ? `mailto:${media.mail}` : null) ||
+                    media.download
                   }
-                  aria-label={`${
-                    media.link
-                      ? `Lien vers ${media.link}`
-                      : `Envoyez un mail à ${media.mail}`
-                  }`}
+                  aria-label={
+                    (media.link && `Lien vers ${media.link}`) ||
+                    (media.mail && `Envoyez un mail à ${media.mail}`) ||
+                    (media.download && "Télécharger le CV")
+                  }
                   target="_blank"
                 >
                   {media.logo}
