@@ -16,6 +16,7 @@ import LinkedIn from "../../Page/Home/Components/Logos/SocialMedia/LinkedIn";
 import Email from "../../Page/Home/Components/Logos/SocialMedia/Email";
 import Github from "../../Page/Home/Components/Logos/SocialMedia/Github";
 import StoryBookLogo from "../../Page/Home/Components/Logos/SkillsLogo/StoryBook";
+import CurriculumVitae from "../../Page/Home/Components/Logos/SocialMedia/CV";
 
 //Project logos
 import ArgentBankLogo from "../../assets/project-image/ArgentBank.png";
@@ -49,6 +50,10 @@ export const logos = [
       {
         logo: <Email mainColor="white" size="30px" />,
         mail: "theo.chrn@gmail.com",
+      },
+      {
+        logo: <CurriculumVitae mainColor={"white"} size={"30px"} />,
+        link: "../../../public/CV/CV_CHERON_THEO.pdf",
       },
     ],
     skills: [

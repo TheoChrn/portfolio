@@ -22,22 +22,17 @@ const ProfileCard = () => {
           <ul className={styles.socialMedia}>
             {socialMedia.map((media, index) => (
               <li key={index}>
-                {media.link ? (
-                  <Link
-                    to={media.link}
-                    aria-label={`Lien vers ${media.link}`}
-                    target="blank"
-                  >
-                    {media.logo}
-                  </Link>
-                ) : (
-                  <Link
-                    to={`mailto:${media.mail}`}
-                    aria-label={`Envoyez un mail à ${media.mail}`}
-                  >
-                    {media.logo}
-                  </Link>
-                )}
+                <Link
+                  to={media.link || `mailto:${media.mail}`}
+                  aria-label={`${
+                    media.link
+                      ? `Lien vers ${media.link}`
+                      : `Envoyez un mail à ${media.mail}`
+                  }`}
+                  target="_blank"
+                >
+                  {media.logo}
+                </Link>
               </li>
             ))}
           </ul>
