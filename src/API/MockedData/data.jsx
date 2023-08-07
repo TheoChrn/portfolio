@@ -54,7 +54,7 @@ export const logos = [
       },
       {
         logo: <CurriculumVitae mainColor={"white"} size={"30px"} />,
-        link: CVPDF,
+        downloadcv: CVPDF,
       },
     ],
     skills: [

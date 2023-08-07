@@ -23,7 +23,10 @@ const ProfileCard = () => {
             {socialMedia.map((media, index) => (
               <li key={index}>
                 <Link
-                  to={media.link || `mailto:${media.mail}`}
+                  download={media.downloadcv && "CV_CHERON_THEO.pdf"}
+                  to={
+                    media.link || (media.mail ? `mailto:${media.mail}` : null)
+                  }
                   aria-label={`${
                     media.link
                       ? `Lien vers ${media.link}`
