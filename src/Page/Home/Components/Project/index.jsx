@@ -9,7 +9,7 @@ const Project = () => {
 
   return (
     <section className={styles.projects}>
-      <h2>PROJETS</h2>
+      <h2 className={styles.fluidH2}>PROJETS</h2>
       <div className={styles.cardContainer}>
         {projects ? (
           projects.map((project, index) => (
@@ -18,7 +18,7 @@ const Project = () => {
                 <img src={project.src} alt={project.alt} />
               </figure>
               <div className={styles.cardInfos}>
-                <h3>{`${project.title}`}</h3>
+                <h3 className={styles.fluidH3}>{`${project.title}`}</h3>
                 <ul>
                   {project.logos &&
                     project.logos.map((logo, index) => (

@@ -1,9 +1,11 @@
+@import "../../../../sass/base.scss";
+
 .projects {
   display: flex;
   flex-direction: column;
+  padding: 5vh 5%;
   gap: 30px;
   & h2 {
-    font-size: 28px;
     text-align: center;
     color: #7451eb;
   }
@@ -16,15 +18,20 @@
     height: 75px;
   }
   & .cardContainer {
-    margin: 0 5%;
     display: grid;
     gap: 30px;
 
     & .card {
       border-radius: 25px;
-      height: 200px;
-      width: 100%;
       position: relative;
+      width: auto;
+      height: auto;
+      width: 100%;
+      aspect-ratio: 2/1;
+
+      & * {
+        box-sizing: border-box;
+      }
 
       & .cardFigure {
         display: flex;
@@ -43,6 +50,7 @@
       }
 
       & .cardInfos {
+        padding: 5%;
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -65,7 +73,8 @@
 
           & li {
             & svg {
-              width: 50px;
+              max-width: 50px;
+              width: 10vw;
               height: auto;
             }
           }
@@ -119,8 +128,6 @@
 
 @media screen and (min-width: 768px) {
   .projects {
-    & h2 {
-    }
     & .cardContainer {
       grid-template-columns: repeat(2, 1fr);
 
@@ -133,17 +140,9 @@
 
 @media screen and (min-width: 1024px) {
   .projects {
-    & h2 {
-      font-size: 40px;
-    }
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  .projects {
+    padding: 5vh 15%;
     & .cardContainer {
       grid-template-columns: repeat(2, 1fr);
-      margin: 0 15%;
     }
   }
 }

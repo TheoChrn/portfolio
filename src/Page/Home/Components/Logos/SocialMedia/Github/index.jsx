@@ -3,8 +3,8 @@ import React from "react";
 const Github = ({ mainColor, size }) => {
   return (
     <svg
-      width={size}
       height={size}
+      width={size}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
       fill={mainColor}

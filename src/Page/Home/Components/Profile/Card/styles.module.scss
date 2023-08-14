@@ -1,34 +1,40 @@
+@import "../../../../../sass/base.scss";
+
 .card {
   width: 100%;
-  margin: 125px 5% 100px 5%;
+  margin: 15vh 0;
   & figure {
     display: flex;
     margin: -100px auto;
     border: solid 10px #ffffff;
     box-shadow: 0 0 15px #e7e1f9;
     width: 150px;
+    height: 150px;
     border-radius: 50%;
 
     & img {
+      object-fit: cover;
       border-radius: 50%;
     }
   }
   .cardAnimated {
-    padding: 20px;
+    padding: 2rem;
     border-radius: 20px;
 
     & .cardInfos {
+      margin-top: 85px;
+      display: flex;
+      flex-direction: column;
       color: white;
-      margin-top: 100px;
       line-height: 35px;
       text-align: center;
-      gap: 15px;
+      gap: 5px;
 
       & .socialMedia {
         display: flex;
         justify-content: center;
+        margin-top: 5px;
         gap: 15px;
-        padding: 5px 0;
 
         & a {
           display: flex;
@@ -43,23 +49,22 @@
   .card {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: auto;
+
     & figure {
       z-index: 1;
     }
     .cardAnimated {
+      height: auto;
       position: relative;
       z-index: 0;
-      height: auto;
       border-radius: 13px;
-      padding: 2rem;
       background-image: none;
       border: solid 2px rgb(87, 56, 191);
       box-shadow: 0 0 20px #140434;
       background-color: #fbfbfc;
 
       & .cardInfos {
-        margin-top: 80px;
         color: #7451eb;
 
         & .socialMedia {

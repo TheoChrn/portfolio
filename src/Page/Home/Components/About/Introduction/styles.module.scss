@@ -1,3 +1,5 @@
+@import "../../../../../sass/base.scss";
+
 .introduction {
   display: flex;
   flex-direction: column;
@@ -5,20 +7,8 @@
   gap: 30px;
   text-align: center;
   color: #7451eb;
-  & h2 {
-    font-size: 28px;
-  }
 
   & p {
-    font-size: 20px;
     text-align: left;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .introduction {
-    & h2 {
-      font-size: 40px;
-    }
   }
 }

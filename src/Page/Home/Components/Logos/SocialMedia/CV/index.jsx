@@ -4,8 +4,8 @@ const CurriculumVitae = ({ size, mainColor }) => {
   return (
     <svg
       fill={mainColor}
-      height={size}
       width={size}
+      height={size}
       version="1.1"
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
