@@ -8,17 +8,17 @@ const Skills = () => {
 
   return (
     <section className={styles.skills}>
-      <h2>COMPÉTENCES</h2>
+      <h2 className={styles.fluidH2}>COMPÉTENCES</h2>
       <div className={styles.skillsContainer}>
         <ul className={styles.skillTypes}>
           {Array.from(types).map((type, index) => (
             <div className={styles.skillType} key={index}>
-              <h3>{type}</h3>
+              <h3 className={styles.fluidH3}>{type}</h3>
               <ul className={styles.skillNames}>
                 {skillLogos
                   .filter((skill) => skill.type === type)
                   .map((skill, subIndex) => (
-                    <li key={subIndex}>
+                    <li className={styles.fluidParagraph} key={subIndex}>
                       {skill.logo} {skill.name}
                     </li>
                   ))}

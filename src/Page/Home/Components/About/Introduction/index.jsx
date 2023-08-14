@@ -4,8 +4,8 @@ import styles from "./styles.module.scss";
 const Introduction = () => {
   return (
     <div className={styles.introduction}>
-      <h2>Qui suis-je ?</h2>
-      <p>
+      <h2 className={styles.fluidH2}>Qui suis-je ?</h2>
+      <p className={styles.fluidParagraph}>
         Je m'appelle Théo, j'ai commencé à apprendre le développement front-end
         sur le site Openclassrooms. Le côté création m'a beaucoup attiré et ai
         donc ensuite suivi une formation diplomante.

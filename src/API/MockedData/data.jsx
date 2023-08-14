@@ -37,23 +37,23 @@ export const logos = [
   {
     socialMedia: [
       {
-        logo: <Github mainColor="white" secondColor="white" size="30px" />,
+        logo: <Github mainColor="white" secondColor="white" size="3.5vh" />,
         link: "https://github.com/TheoChrn",
       },
       {
-        logo: <Twitter mainColor="white" size="30px" />,
+        logo: <Twitter mainColor="white" size="3.5vh" />,
         link: "https://twitter.com/vtchrn",
       },
       {
-        logo: <LinkedIn mainColor="white" size="30px" />,
+        logo: <LinkedIn mainColor="white" size="3.5vh" />,
         link: "https://www.linkedin.com/in/th%C3%A9o-chrn/",
       },
       {
-        logo: <Email mainColor="white" size="30px" />,
+        logo: <Email mainColor="white" size="3.5vh" />,
         mail: "theo.chrn@gmail.com",
       },
       {
-        logo: <CurriculumVitae mainColor={"white"} size={"30px"} />,
+        logo: <CurriculumVitae mainColor={"white"} size="3.5vh" />,
         download: CurriculumVitaePDF,
       },
     ],

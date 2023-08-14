@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import ProfilePic from "../../../../../assets/profile-picture/WY_Hp8D6.jpg";
+import ProfilePic from "../../../../../assets/profile-picture/photo-de-profil.png";
 import { Link } from "react-router-dom";
 import { logos } from "../../../../../API/MockedData/data";
 
@@ -17,8 +17,8 @@ const ProfileCard = () => {
       </figure>
       <div className={styles.cardAnimated}>
         <div className={styles.cardInfos}>
-          <h1>Théo</h1>
-          <h2>Développeur Web Front-end junior</h2>
+          <h1 className={styles.fluidName}>Théo</h1>
+          <h2 className={styles.fluidName}>Développeur Web Front-end junior</h2>
           <ul className={styles.socialMedia}>
             {socialMedia.map((media, index) => (
               <li key={index}>
